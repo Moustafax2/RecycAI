@@ -1,13 +1,14 @@
 import { useState } from 'react'
 
-import './App.css'
+import './index.css'
 
 function App() {
 
 
   return (
     <>
-
+      <div>HELLO WORLD</div>
+      <p> kb is a goober</p>
     </>
   )
 }
