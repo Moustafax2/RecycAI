@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import './index.css';
 import { GoogleGenerativeAI, HarmBlockThreshold, HarmCategory } from "@google/generative-ai";
 import MarkdownIt from 'markdown-it';
-import { maybeShowApiKeyBanner } from '../../backend/gemini-api-banner';
+import { maybeShowApiKeyBanner } from '../gemini-api-banner';
 import RecyclingIcon from './assets/icons';
 
 // Move the API key to a secure environment variable in a real application
