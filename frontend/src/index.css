@@ -1,68 +1,149 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
+/* General Styles */
 body {
+  font-family: 'Poppins', sans-serif;
+  background: none;
+  text-align: center;
   margin: 0;
+  padding: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
+/* Main Container */
+
+main{
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.mainFormDiv{
+  width: 90%;
+  max-width: 500px;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Heading */
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  color: #007bff;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px; 
 }
 
+/* Buttons */
 button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 18px;
+  border: none;
   border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Camera Container */
+.camera-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f8f9fa;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
+}
+
+/* Camera Preview */
+video {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  background: black;
+}
+
+/* Captured Image */
+img {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Input Field */
+.prompt-box {
+  margin-top: 20px;
+}
+
+.prompt {
+  width: 90%;
+  max-width: 300px;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: center;
+  transition: border-color 0.3s;
+}
+
+.prompt:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0px 3px 6px rgba(0, 123, 255, 0.2);
+}
+
+/* Output Box */
+.output {
+  margin-top: 20px;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  font-weight: 500;
+  word-wrap: break-word;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+  main {
+    padding: 20px;
   }
-  a:hover {
-    color: #747bff;
+
+  h1 {
+    font-size: 20px;
   }
+
   button {
-    background-color: #f9f9f9;
+    width: 90%;
+  }
+
+  .prompt {
+    width: 100%;
+  }
+
+  video, img {
+    max-width: 100%;
   }
 }
