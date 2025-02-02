@@ -41,3 +41,6 @@ RecycAI helps users determine **whether an item is recyclable** based on their *
 **With more resources, RecycAI could redefine waste management and make recycling effortless for everyone! 🌍♻️**
 
 **For more information, see https://docs.google.com/presentation/d/1t9ClnDAC70_CkOsp1QNuc3RiaNH_yp2ssnG92qyy5NY/edit?usp=sharing**
+
+# IMPORTANT NOTE: CONTRIBUTIONS
+All 3 team members worked collaboratively using **Live Server VSCode extension**. The Live Server session was created by **Karim Elbasiouni**, which is why all commits are under his name. All team members contributed significantly to the project. Most contributions were collaborative, meaning all team members worked on writing and debugging code for the same functionalities.
