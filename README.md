@@ -1,4 +1,4 @@
-# RecycAI - AI-Powered Smart Waste Sorting
+# ♻️ RecycAI - AI-Powered Smart Waste Sorting
 
 ## Inspiration
 Recycling is often confusing due to **inconsistent regulations across cities**, leading to **high contamination rates** in recycling bins. Many people unknowingly **misplace waste**, contributing to **landfill overflow and environmental harm**. We wanted to create a **smart, AI-powered solution** to **simplify waste sorting**, reduce contamination, and promote **sustainable recycling habits**.
