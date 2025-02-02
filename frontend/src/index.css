@@ -114,15 +114,36 @@ img {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.location-label {
+  text-align: left;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: rgb(30, 81, 47);
+}
+
 /* Input Field */
 .prompt-box {
-  margin: auto;
-  margin-top: 20px;
+  margin: 0;
+  width: 100%;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  gap: 10px;
 }
 
 .prompt {
+  margin: 0;
+  flex: 1;
   width: 90%;
   max-width: 300px;
   padding: 12px;
@@ -135,21 +156,6 @@ img {
 
 .submitButton{
   margin-top: 0px;
-  margin-left: 10px;
-  padding: 0px;
-  padding-left: 15px;
-  padding-right: 15px;
-
-}
-
-.submit-icon{
-  width: 22px;
-  color: #d1e8d1;
-  color: #f8fff5d9;
-}
-
-.submit-icon:hover{
-  color: rgb(30, 81, 47);
 }
 
 .prompt:focus {
