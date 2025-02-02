@@ -1,3 +1,3 @@
-import {RecyclingIcon as Logo} from '@mui/icons-material/Recycling';
+import RecyclingIcon from '@mui/icons-material/Recycling';
 
-export default Logo
+export default RecyclingIcon;
