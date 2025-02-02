@@ -39,3 +39,5 @@ RecycAI helps users determine **whether an item is recyclable** based on their *
 ⭐ **Gamification & Incentives** – Develop a **reward system** that encourages users to **recycle properly** by tracking their recycling habits
 
 **With more resources, RecycAI could redefine waste management and make recycling effortless for everyone! 🌍♻️**
+
+**For more information, see https://docs.google.com/presentation/d/1t9ClnDAC70_CkOsp1QNuc3RiaNH_yp2ssnG92qyy5NY/edit?usp=sharing **
