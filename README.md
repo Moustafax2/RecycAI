@@ -17,7 +17,7 @@ RecycAI helps users determine **whether an item is recyclable** based on their *
 
 ## Challenges We Ran Into
 - **Idea Selection Conflict** – We spent nearly **three hours** debating between different AI-powered ideas, including an **animated mental health chatbot** and a **sign language translator for virtual meetings**. We resolved this by **seeking feedback from mentors and other participants**, which helped us choose a **feasible solution within our time constraints**.
-- **AI Image Classification Accuracy** – Using **Google Gemini AI** for object identification and mapping to recycling rules required extensive **prompt engineering** to improve accuracy.
+- **AI Image Classification Accuracy** – Using **Google Gemini AI 1.5 Flash** for object identification and mapping to recycling rules required extensive **prompt engineering** to improve accuracy.
 
 ## Accomplishments That We're Proud Of
 - 🏆 Successfully **integrated AI into waste sorting**, making recycling easier for individuals
