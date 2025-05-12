@@ -40,6 +40,8 @@ RecycAI helps users determine **whether an item is recyclable** based on their *
 
 **With more resources, RecycAI could redefine waste management and make recycling effortless for everyone! 🌍♻️**
 
+**DevPost: https://devpost.com/software/recycai-ow2svp**
+
 **For more information, see https://docs.google.com/presentation/d/1t9ClnDAC70_CkOsp1QNuc3RiaNH_yp2ssnG92qyy5NY/edit?usp=sharing**
 
 **Try it out yourself: https://recycai.ca/**
